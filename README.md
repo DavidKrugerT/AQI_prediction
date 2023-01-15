@@ -8,4 +8,4 @@ For this part we combined the two feature groups into one feature view in order 
 ## Training pipeline
 first step was to clean and drop unnecessary featues. this data was then used to train three different models; Gradient boosting regressor, random forest and, a neural network which we ran some hyperparameter tuning on with bayesian optimization. 
 ## Huggingface
-The model was then put on Huggingface where we predict 7 days of AQI. 
+The model was then put on [Huggingface](https://huggingface.co/spaces/Davidkryckan/AQI_prediction) where we predict 7 days of AQI. 
